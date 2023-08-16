@@ -1,0 +1,14 @@
+cargo new PROJECT_NAME
+cargo install cargo-script
+
+# Use cargo-script to run rust scripts:
+
+### Give the script executable permissions in MacOS
+chmod +x script.rs
+
+### Run rust script with cargo-script
+### Note: "#!/usr/bin/env run-cargo-script" must be added to the top of the file to enable the file to be run with cargo-script
+./script.rs
+
+chmod +x script.rs && ./script.rs
+
